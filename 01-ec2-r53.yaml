@@ -61,3 +61,5 @@
       overwrite: true
     when: item.item == "frontend"
     loop: "{{ ec2_output.results }}"
+
+    # TEST
