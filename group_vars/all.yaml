@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.techevolv.fun # mongodb-dev.techevolv.fun
 REDIS_HOST: redis-{{ env }}.techevolv.fun
-CATALOGUE_HOST: catalogue-{{ env }}.techevolv.fun
-CART_HOST: cart-{{ env }}.techevolv.fun
-USER_HOST: user-{{ env }}.techevolv.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.techevolv.fun
+CART_HOST: cart.backend-alb-{{ env }}.techevolv.fun
+USER_HOST: user.backend-alb-{{ env }}.techevolv.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.techevolv.fun
 MYSQL_HOST: mysql-{{ env }}.techevolv.fun
-SHIPPING_HOST: shipping-{{ env }}.techevolv.fun
-PAYMENT_HOST: payment-{{ env }}.techevolv.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.techevolv.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.techevolv.fun
